@@ -43,6 +43,15 @@ abbr tr 'trans :ru'
 abbr dc 'docker compose'
 abbr dps 'docker ps -a'
 
+# kubernetes
+set -l K8S_NAMESPACE environments
+abbr k kubectl -n $K8S_NAMESPACE
+abbr kp kubectl get pods -n $K8S_NAMESPACE
+abbr ks kubectl get services -n $K8S_NAMESPACE
+abbr kd kubectl get deployments -n $K8S_NAMESPACE
+abbr ki kubectl get ingresses -n $K8S_NAMESPACE
+abbr ke kubectl exec -it -n $K8S_NAMESPACE
+
 # git
 abbr gs 'git status'
 abbr ga 'git add -A'
