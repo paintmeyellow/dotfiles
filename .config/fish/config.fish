@@ -10,7 +10,7 @@ set -gx PATH $GOPATH/bin $PATH
 
 ### EXPORT ###
 set fish_greeting
-set -gx EDITOR vim
+set -gx EDITOR vi
 
 ### ALIASES ###
 # bare git repo alias for dotfiles
