@@ -60,11 +60,8 @@ abbr .. 'cd ..'
 abbr .2 'cd ../..'
 abbr .3 'cd ../../..'
 
-# ps
+# monitoring
 abbr psa 'ps auxf'
-
-# go
-abbr lint golangci-lint run --new
 
 ### BASE16 SHELL ###
 if status --is-interactive
