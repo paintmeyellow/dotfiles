@@ -18,4 +18,10 @@ return {
   {
     "nvim-treesitter/nvim-treesitter-textobjects",
   },
+  {
+    "iamcco/markdown-preview.nvim",
+    run = function()
+      vim.fn["mkdp#util#install"]()
+    end,
+  },
 }
