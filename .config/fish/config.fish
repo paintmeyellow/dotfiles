@@ -4,6 +4,9 @@ set -gx PATH ~/bin $PATH
 set -gx PATH ~/.local/bin $PATH
 set -gx PATH /opt/homebrew/bin $PATH
 
+# Rust
+set -gx PATH $HOME/.cargo/bin $PATH
+
 # Go
 set -g GOPATH $HOME/go
 set -gx PATH $GOPATH/bin $PATH
