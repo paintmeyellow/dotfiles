@@ -2,7 +2,6 @@ return {
   ensure_installed = {
     "go",
     "lua",
-    "sql",
     "json",
     "yaml",
   },
