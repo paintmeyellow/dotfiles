@@ -8,8 +8,7 @@ set -gx PATH /opt/homebrew/bin $PATH
 set -gx PATH $HOME/.cargo/bin $PATH
 
 # Go
-set -g GOPATH $HOME/go
-set -gx PATH $GOPATH/bin $PATH
+set -gx PATH /usr/local/go/bin $PATH
 
 ### EXPORT ###
 set fish_greeting
