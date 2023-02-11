@@ -63,6 +63,7 @@ abbr gs 'git status'
 abbr ga 'git add -A'
 abbr gc 'git commit'
 abbr gd 'git diff'
+abbr gch 'git checkout'
 
 # changing "ls" to "exa"
 alias ls='exa -al --color=never --group-directories-first'
