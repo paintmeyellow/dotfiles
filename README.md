@@ -4,7 +4,7 @@
 
 First, install a proper version of these CLI dependencies:
 
-| CLI                                               | Minimum version required | Description                                    |
+| CLI                                               | Last used version        | Description                                    |
 | ------------------------------------------------- | ------------------------ | ---------------------------------------------- |
 | [fish](https://github.com/fish-shell/fish-shell)  | 3.5.1                    | modern shell                                   |
 | [tmux](https://github.com/tmux/tmux/)             | 3.0a                     | terminal multiplexer                           |
