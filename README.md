@@ -8,6 +8,7 @@ First, install a proper version of these CLI dependencies:
 | ------------------------------------------------- | ------------------------ | ---------------------------------------------- |
 | [fish](https://github.com/fish-shell/fish-shell)  | 3.5.1                    | modern shell                                   |
 | [tmux](https://github.com/tmux/tmux/)             | 3.0a                     | terminal multiplexer                           |
+| [tmp](https://github.com/tmux-plugins/tpm)        | 3.1.0                    | tmux plugin manager                            |
 | [fzf](https://github.com/junegunn/fzf)            | 0.32.1                   | fuzzy finder                                   |
 | [fd](https://github.com/sharkdp/fd)               | 8.4.0                    | faster and more colorful alternative to `find` |
 | [bat](https://github.com/sharkdp/bat)             | 0.21.0                   | smarter `cat` with syntax highlighting         |
