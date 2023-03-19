@@ -26,7 +26,7 @@ Fish plugins:
 Next, clone repository 
 
 ```bash
-git clone --bare https://github.com/Nikitos096/dotfiles.git $HOME/dotfiles
+git clone --bare --recurse-submodules git@github.com:paintmeyellow/dotfiles.git $HOME/dotfiles
 ```
 If you don't have the config alias, set one
 ```bash
@@ -34,9 +34,13 @@ echo "alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'" >
 ```
 
 Set showUntrackedFiles no
-
 ```bash
 config config --local status.showUntrackedFiles no
+```
+
+Create symlink for astronvim user config
+```bash
+ln -s ~/.config/astronvim ~/.config/nvim/lua/user
 ```
 
 ## Initialization
