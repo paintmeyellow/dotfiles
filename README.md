@@ -42,29 +42,3 @@ Create symlink for astronvim user config
 ```bash
 ln -s ~/.config/astronvim ~/.config/nvim/lua/user
 ```
-
-## Initialization
-
-Initialize a bare repository
-```bash
-git init --bare $HOME/dotfiles
-```
-
-Add the alias to manange a git repository
-```bash
-echo "alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'" >> $HOME/.bashrc
-
-```
-Set showUntackedFiles no
-```bash
-config config --local status.showUntrackedFiles no
-```
-
-## Backup
-
-To backup your files if conflict occurred
-```bash
-mkdir -p dotfiles-backup && \
-config checkout 2>&1 | egrep "\s+\." | awk {'print $1'} | \
-xargs -I{} mv {} dotfiles-backup/{}
-```
