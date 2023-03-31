@@ -27,12 +27,6 @@ alias p='cd ~/Projects; exa -al --color=never --group-directories-first'
 # colorize grep output (good for log files)
 alias grep='grep --color=auto'
 
-# macvim
-if test -e /opt/homebrew/bin/mvim
-    alias vim='mvim'
-    alias vi='mvim'
-end
-
 set -g SHELL $(which fish)
 
 ### ABBRIVATIONS ###
@@ -83,3 +77,5 @@ set fzf_fd_opts --no-ignore --hidden --exclude=.git
 
 ### DIRENV ###
 # direnv hook fish | source
+
+source ~/.config/fish/config.local.fish
