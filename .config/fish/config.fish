@@ -76,6 +76,6 @@ end
 set fzf_fd_opts --no-ignore --hidden --exclude=.git
 
 ### DIRENV ###
-# direnv hook fish | source
+direnv hook fish | source
 
 source ~/.config/fish/config.local.fish
